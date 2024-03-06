@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+    /* background: #000; */
+}
+header{
+    /* padding: 10px 100px; */
+    box-sizing: border-box;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    
+}
+nav{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid rgba(255,255,255,.2);/*on pourra le mettre dans le header a lavenir*/
+    border-bottom: 1px solid rgba(255,255,255,.2);/*on pourra le mettre dans le header a lavenir*/
+    z-index: 999;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    float: right;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 53px;
+    /* transition: border-color 0.3s ease; */
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+    border-bottom-color: #000;
+}
+
+section{
+    width: 100%;
+    /* max-height: 100px; */
+    /* height: 10vh; */
+}
+.sec1 h1,.image img,.recent_work,.work img , .work h3,.work p,.work a{
+    padding-left: 35px;
+
+}
+.sec1{
+    padding-top: 300px ;
+    padding-bottom: 230px;
+    /* padding-left: 35px; */
+
+}
+.sec1 h1{
+    font-size: 3em;
+    font-weight: normal;
+    width: 50% ;
+}
+/* .sec1 {
+} */
+.sec2{
+    /* height: 10vh; */
+    /* padding-left: 35px; */
+    /* padding-left: 35px; */
+
+
+}
+.sec3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* padding-left: 35px; */
+
+}
+.work{
+    width: 50%;
+    background-color: white ;
+    padding: 70px 0;
+    /* position: relative; */
+    z-index: 49
+    ;
+    /* height: 500px; */
+}
+.work1{
+    width: 50%;
+    background-color: white ;
+    padding: 70px 0;
+    /* position: relative; */
+    z-index: 49
+    ;
+    /* height: 500px; */
+}
+.work img{
+    /* width: 200px; */
+    width: 590px;
+    height: 600px;
+}
+.work1 img{
+    /* width: 200px; */
+    width: 590px;
+    height: 600px;
+}
+.work p{
+    width: 500px;
+}
+.work1 p{
+    width: 500px;
+}
+.work1 a {
+    padding: 15px 40px;
+    /* padding-left: 35px; */
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: 1.5em;
+    /* position: absolute; */
+    background-color: black;
+    top: 500 px;
+}
+.work a {
+    padding: 15px 40px;
+    /* padding-left: 35px; */
+    margin-left: 35px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: 1.5em;
+    /* position: absolute; */
+    background-color: black;
+    top: 500 px;
+}
+.sec4{
+    padding: 30px 0;
+    color: white;
+    background: black;
+}
+/* .sec4 a{
+    padding: 15px 40px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    
+} */
+.divsec4 p,.divsec4 h2,.conUS{
+    padding-left: 35px;
+    padding-top: 30px;
+}
+.divsec4 h2{
+    padding-top: 160px;
+}
+/* .divsec4 a{ */
+    /* padding: 15px 40px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: 1.5em;
+    position: absolute;
+    background-color: black;
+    bottom: 0.3px; */
+    /* } */
+    .divsec4 p{
+        width: 500px;
+        padding-left: 35px;
+        padding-left: 35px;
+    }
+    .divsec4 a{
+        /* width: 50px; */
+        background-color: white;
+        padding: 15px 40px;
+    /* padding-left: 35px; */
+        /* margin-left: 35px; */
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+.conUS{
+padding-bottom: 160px;
+
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    padding-left: 35px;
+}
+
+footer ul{
+    display: flex;
+    margin: 0;
+    padding: 35px 100px;
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+}
+footer ul li {
+    list-style-type: none;
+}
+footer ul li ion-icon{
+    color: black;
+    /* float: right; */
+    padding-left: 10px;
+    /* bottom: 50%; */
+}
+.reseau {
+    display: flex;
+    float: right;
+}

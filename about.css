@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+.about {
+    display: flex;
+    margin-top: 70px;
+    padding: 35px;
+}
+.about_us{
+    width: 50%;
+    /* background: yellow; */
+    font-size: 5em;
+}
+.content{
+    width: 50%;
+    /* background: yellowgreen; */
+}
+.content p{
+    width: 500px;
+    font-size: 1.5em;
+}
+.us{
+    display: flex;
+    padding-left: 35px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-top: 170px;
+    background: #2a2929;
+    color: white;
+    /* color: rgb(12, 254, 117); */
+    
+}
+.describe{
+    width: 50%;
+    font-size: 2em;
+
+}
+.describe p{
+    width: 80%;
+}
+
+.members{
+    width: 50%;
+    display: flex;
+
+}
+.team{
+    width: 50%;
+}
+.team img{
+    width: 300px;
+    height: 450px;
+}
+.team p{
+    font-size: 1.2em;
+    margin-top: 20px;
+    /* padding-top: 20px; */
+}

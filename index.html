@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUST portfolio </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="iframe" >Gust</a></li>
+                <li><a href="about.html" target="iframe" >about us</a></li>
+                <li><a href="conctact.html" target="iframe" >contact us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <script>
+        function adjustIframeHeight() {
+            var iframe = document.getElementById('iframe');
+            if (iframe) {
+                iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+            }
+          }
+    </script>
+    <iframe name="iframe" src="gust.html" frameborder="0" width="100%" id="iframe" onload="adjustIframeHeight()" >
+
+<!-- 
+        <section class="sec1">
+            <h1>Gust is a london-based interior design studio.</h1>
+        </section>
+
+        <section class="sec2">
+            <div class="image">
+                <img src="./photo-1567016376408-0226e4d0c1ea" alt="" class="image">
+            </d>
+            <div class="recent_work">
+                <h2>Recent work</h2>
+                <p>Our pratice spans from environmental retrofits of 
+                    existing  buildings to the complete planning and design of new 
+                    neighbourhoods and public spaces.
+                </p>
+            </div>
+        </section>
+            
+        <section class="sec3">
+            <div class="work">
+                    <img src="./avery-klein-JaXs8Tk5Iww-unsplash.jpg" class="image" alt="image de chaise avec coussin">
+
+                <h3>Klaxton and Frank project</h3>
+                <p>Our work for firm Klaxtion and Frank. We created a modern 
+                    office environment filled with homey details.
+                </p>
+                <a href="">READ MORE</a>
+            </div>
+            <div class="work">
+                <div class="image2">
+                    <img src="./josh-hemsley-wPYvAFGrL4A-unsplash2.jpg" class="image" alt="image de chaise de burreau marron">
+                </div>
+                
+                <h3>Private home interior</h3>
+                <p>This is a recent project renovationg and entire family home
+                    in west London. We deww inpiration from mid-century modern design,
+                    but added contemporaty flair
+                </p>
+                <a href="">READ MORE</a>
+            </div>
+        </section>
+        <section class="sec4">
+            <div class="divsec4">
+                <h2>Let's Work Together</h2>
+                <p>Currently,we're looking for new opportunities.
+                    Get in touch and one of our project managers will reach
+                    out to you to discuss the process.
+                </p>
+
+                <div class="conUS">
+                    <a href="./conctact.html">CONTACT US</a>
+                </div>
+            </div>
+            
+        </section> -->
+
+
+    </iframe>
+    <footer>
+        <p>
+            info@gust.com 
+            123-456-7890
+        </p>
+        <div class="reseau">
+            <!-- facebook insta twitter  -->
+            <ul>
+                <li><a href=""><ion-icon name="paper-plane-outline"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
